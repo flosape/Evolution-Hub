@@ -25,3 +25,6 @@ Thumbs.db
 
 # Termux temporary files
 *.tmp
+
+# Local backup
+frontend-backup/
