@@ -1,0 +1,13 @@
+{
+  "name": "evolution-hub-os",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Evolution Hub Operating System",
+  "packageManager": "pnpm@11.17.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --recursive build",
+    "lint": "pnpm --recursive lint",
+    "typecheck": "pnpm --recursive exec tsc --noEmit"
+  }
+}
