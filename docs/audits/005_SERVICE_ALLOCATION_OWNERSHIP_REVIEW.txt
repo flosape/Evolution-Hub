@@ -1,0 +1,49 @@
+22:defines the constitutional ownership,
+68:OFFICE OWNERSHIP PRINCIPLE
+129:• Office ownership.
+253:• Exercise ownership authority.
+535:status, influence, or ownership.
+1113:• Convert economic success into ownership
+1263:• Create ownership over the platform.
+1414:• Claim ownership of industries.
+1560:• Exercise ownership over the platform.
+1701:• Exercise ownership authority.
+1728:5.8 — SERVICE OWNERSHIP MATRIX
+1846:• Exercise ownership over industries.
+1996:• Exercise ownership over industries.
+2143:• Create ownership authority.
+2172:5.8 — SERVICE OWNERSHIP MATRIX
+2289:• Create ownership authority.
+2325:5.8 — SERVICE OWNERSHIP MATRIX
+2337:SERVICE OWNERSHIP MATRIX
+2348:The Service Ownership Matrix establishes
+2367:SERVICE OWNERSHIP PRINCIPLE
+2369:Ownership in EHOS means responsibility.
+2582:SERVICE OWNERSHIP MATRIX
+2593:The Service Ownership Matrix establishes
+2599:service ownership before engineering
+2604:OWNERSHIP PRINCIPLE
+2606:Ownership within EHOS means:
+2616:Ownership does not mean:
+2628:SERVICE OWNERSHIP STRUCTURE
+2774:If service ownership becomes unclear:
+2792:The Service Ownership Matrix can:
+2802:• Support database ownership design.
+2808:The Service Ownership Matrix shall not:
+2851:SERVICE OWNERSHIP MATRIX
+2862:The Service Ownership Matrix establishes
+2868:• A defined owner of responsibility.
+3064:CONSTITUTIONAL OWNERSHIP PRINCIPLE
+3068:Ownership means responsibility.
+3070:Ownership does not mean domination.
+3299:• Become ownership authority.
+3394:1. RESPONSIBILITY REMAINS WITH OWNER
+3418:• Transfer ownership.
+3472:Operations does not gain ownership of
+3581:service placement, ownership alignment,
+3632:• Analyze service ownership.
+3771:1. RESPONSIBILITY REMAINS WITH OWNER
+3795:• Transfer ownership.
+3849:Operations does not gain ownership of
+4050:shall inherit service ownership and
+4106:defined ownership.

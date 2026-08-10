@@ -1,0 +1,26 @@
+61:DOMAIN OWNER
+315:A Team does not represent ownership of
+358:without becoming the owner of participant
+407:Ownership remains with the User Domain.
+555:without becoming the owner of participant
+606:Ownership remains with the User Domain.
+1222:Ownership remains with the User Domain.
+1439:Ownership remains with the User Domain.
+1590:Relationships do not transfer ownership.
+1596:The Team Domain owns Team relationships.
+1598:External domains retain ownership of their
+1625:OWNERSHIP
+1627:Team Domain owns:
+1631:User Domain owns:
+1653:• Create user ownership.
+1682:OWNERSHIP
+1684:Team Domain owns:
+1688:Platform Governance owns:
+1736:OWNERSHIP
+1738:Team Domain owns:
+1742:User Domain owns:
+1953:ROLE OWNERSHIP RULE
+2027:EXTERNAL OWNERSHIP RULE
+2809:• Ownership boundaries.
+3023:• Ownership boundaries.
+3215:DOMAIN OWNER
