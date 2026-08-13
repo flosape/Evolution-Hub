@@ -2,11 +2,15 @@ import type { Team } from "@evolution-hub/team";
 import { eq } from "drizzle-orm";
 
 import type { Database } from "../client/types";
-import { teams } from "../drizzle/schema";
+import { teams } from "../drizzle/schema.ts";
 import type { TeamRepository } from "./team.repository";
 
 export class DrizzleTeamRepository implements TeamRepository {
-  constructor(private readonly db: Database) {}
+  private readonly db: Database;
+
+  constructor(db: Database) {
+    this.db = db;
+  }
 
   async create(team: Team): Promise<Team> {
     const [record] = await this.db

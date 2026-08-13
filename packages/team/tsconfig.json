@@ -9,8 +9,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "repository/**/*.ts",
-    "schema/**/*.ts",
-    "integration/**/*.ts"
+    "src/**/*.ts"
   ]
 }

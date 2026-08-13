@@ -2,11 +2,15 @@ import type { TeamRole } from "@evolution-hub/team";
 import { eq } from "drizzle-orm";
 
 import type { Database } from "../client/types";
-import { teamRoles } from "../drizzle/schema";
+import { teamRoles } from "../drizzle/schema.ts";
 import type { TeamRoleRepository } from "./team-role.repository";
 
 export class DrizzleTeamRoleRepository implements TeamRoleRepository {
-  constructor(private readonly db: Database) {}
+  private readonly db: Database;
+
+  constructor(db: Database) {
+    this.db = db;
+  }
 
   async createRole(role: TeamRole): Promise<TeamRole> {
     const [record] = await this.db

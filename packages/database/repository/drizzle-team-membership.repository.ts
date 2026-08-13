@@ -2,13 +2,17 @@ import type { TeamMembership } from "@evolution-hub/team";
 import { eq } from "drizzle-orm";
 
 import type { Database } from "../client/types";
-import { teamMemberships } from "../drizzle/schema";
+import { teamMemberships } from "../drizzle/schema.ts";
 import type { TeamMembershipRepository } from "./team-membership.repository";
 
 export class DrizzleTeamMembershipRepository
   implements TeamMembershipRepository
 {
-  constructor(private readonly db: Database) {}
+  private readonly db: Database;
+
+  constructor(db: Database) {
+    this.db = db;
+  }
 
   async createMembership(
     membership: TeamMembership,
