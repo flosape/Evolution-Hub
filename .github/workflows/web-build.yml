@@ -1,0 +1,46 @@
+name: Evolution Hub Web Build
+
+on:
+  push:
+    branches:
+      - main
+      - constitutional-terminology-synchronization
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  web-build:
+    name: Typecheck and Build Web
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.17.0
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck web
+        run: pnpm --filter web exec tsc --noEmit
+
+      - name: Typecheck database
+        run: pnpm --filter @evolution-hub/database typecheck
+
+      - name: Typecheck team
+        run: pnpm --filter @evolution-hub/team typecheck
+
+      - name: Build web
+        run: pnpm --filter web build
